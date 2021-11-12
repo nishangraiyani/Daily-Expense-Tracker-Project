@@ -1,0 +1,62 @@
+[
+{"type":"header","version":"5.1.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"detsdb"},
+{"type":"table","name":"admin","database":"detsdb","data":
+[
+{"ID":"2","Email":"admin@gmail.com","Password":"admin"}
+]
+}
+,{"type":"table","name":"tblexpense","database":"detsdb","data":
+[
+{"ID":"1","UserId":"2","ExpenseDate":"2019-05-15","ExpenseItem":"Milk","ExpenseCost":"63","NoteDate":null},
+{"ID":"2","UserId":"2","ExpenseDate":"2019-05-15","ExpenseItem":"Vegitables","ExpenseCost":"520","NoteDate":"2019-05-15 15:36:19"},
+{"ID":"3","UserId":"2","ExpenseDate":"2019-05-15","ExpenseItem":"Household Items","ExpenseCost":"5200","NoteDate":"2019-05-15 15:37:08"},
+{"ID":"4","UserId":"2","ExpenseDate":"2019-05-14","ExpenseItem":"Milk","ExpenseCost":"83","NoteDate":"2019-05-15 15:37:27"},
+{"ID":"5","UserId":"2","ExpenseDate":"2019-05-14","ExpenseItem":"Bed Sheets","ExpenseCost":"1120","NoteDate":"2019-05-15 15:37:49"},
+{"ID":"6","UserId":"2","ExpenseDate":"2019-05-12","ExpenseItem":"Fruits","ExpenseCost":"890","NoteDate":"2019-05-15 15:38:09"},
+{"ID":"7","UserId":"2","ExpenseDate":"2019-05-10","ExpenseItem":"Household Items","ExpenseCost":"5600","NoteDate":"2019-05-15 15:38:26"},
+{"ID":"8","UserId":"2","ExpenseDate":"2019-04-24","ExpenseItem":"Milk","ExpenseCost":"102","NoteDate":"2019-05-15 15:38:44"},
+{"ID":"9","UserId":"2","ExpenseDate":"2019-05-08","ExpenseItem":"Bed Sheets","ExpenseCost":"890","NoteDate":"2019-05-15 15:38:57"},
+{"ID":"10","UserId":"2","ExpenseDate":"2018-12-19","ExpenseItem":"Household Items","ExpenseCost":"1120","NoteDate":"2019-05-15 15:39:34"},
+{"ID":"11","UserId":"2","ExpenseDate":"2018-12-19","ExpenseItem":"Fruits","ExpenseCost":"560","NoteDate":"2019-05-15 15:39:52"},
+{"ID":"13","UserId":"2","ExpenseDate":"2018-12-20","ExpenseItem":"Tour of Manali","ExpenseCost":"30000","NoteDate":"2019-05-15 15:45:47"},
+{"ID":"14","UserId":"2","ExpenseDate":"2019-05-14","ExpenseItem":"Milk","ExpenseCost":"360","NoteDate":"2019-05-15 15:51:31"},
+{"ID":"15","UserId":"3","ExpenseDate":"2019-05-15","ExpenseItem":"Milk","ExpenseCost":"123","NoteDate":"2019-05-15 15:59:56"},
+{"ID":"16","UserId":"3","ExpenseDate":"2019-05-15","ExpenseItem":"Household Items","ExpenseCost":"360","NoteDate":"2019-05-15 16:00:06"},
+{"ID":"17","UserId":"3","ExpenseDate":"2019-05-15","ExpenseItem":"Bed Sheets","ExpenseCost":"3000","NoteDate":"2019-05-15 16:00:18"},
+{"ID":"18","UserId":"3","ExpenseDate":"2019-05-07","ExpenseItem":"Milk","ExpenseCost":"123","NoteDate":"2019-05-15 16:00:28"},
+{"ID":"19","UserId":"3","ExpenseDate":"2019-05-14","ExpenseItem":"Household Items","ExpenseCost":"3600","NoteDate":"2019-05-15 16:00:38"},
+{"ID":"20","UserId":"2","ExpenseDate":"2019-05-14","ExpenseItem":"Electric Board Extension","ExpenseCost":"300","NoteDate":"2019-05-15 20:41:33"},
+{"ID":"21","UserId":"2","ExpenseDate":"2019-04-11","ExpenseItem":"Milk","ExpenseCost":"123","NoteDate":"2019-05-15 23:20:24"},
+{"ID":"22","UserId":"2","ExpenseDate":"2019-04-10","ExpenseItem":"Household Items","ExpenseCost":"520","NoteDate":"2019-05-15 23:20:37"},
+{"ID":"23","UserId":"2","ExpenseDate":"2019-05-16","ExpenseItem":"Household Items","ExpenseCost":"360","NoteDate":"2019-05-16 12:59:54"},
+{"ID":"25","UserId":"8","ExpenseDate":"2019-05-17","ExpenseItem":"Milk","ExpenseCost":"3600","NoteDate":"2019-05-17 11:05:13"},
+{"ID":"26","UserId":"8","ExpenseDate":"2019-05-16","ExpenseItem":"Bed Sheets","ExpenseCost":"1025","NoteDate":"2019-05-17 11:05:42"},
+{"ID":"27","UserId":"1","ExpenseDate":"2019-05-17","ExpenseItem":"Computer Mouse","ExpenseCost":"500","NoteDate":"2019-05-18 10:49:05"},
+{"ID":"30","UserId":"1","ExpenseDate":"2019-05-18","ExpenseItem":"Milk + Bread","ExpenseCost":"80","NoteDate":"2019-05-18 10:52:01"},
+{"ID":"31","UserId":"10","ExpenseDate":"2019-05-16","ExpenseItem":"Computer Mouse","ExpenseCost":"500","NoteDate":"2019-05-18 11:05:45"},
+{"ID":"32","UserId":"10","ExpenseDate":"2019-05-17","ExpenseItem":"Milk+Bread","ExpenseCost":"80","NoteDate":"2019-05-18 11:06:06"},
+{"ID":"33","UserId":"10","ExpenseDate":"2019-05-18","ExpenseItem":"Room Rent","ExpenseCost":"10000","NoteDate":"2019-05-18 11:06:26"},
+{"ID":"35","UserId":"11","ExpenseDate":"2021-08-31","ExpenseItem":"watch","ExpenseCost":"500","NoteDate":"2021-09-01 18:09:09"},
+{"ID":"36","UserId":"11","ExpenseDate":"2021-09-01","ExpenseItem":"shirt","ExpenseCost":"1000","NoteDate":"2021-09-01 18:09:44"},
+{"ID":"37","UserId":"14","ExpenseDate":"2021-09-13","ExpenseItem":"watch","ExpenseCost":"500","NoteDate":"2021-09-13 08:57:49"},
+{"ID":"38","UserId":"15","ExpenseDate":"2021-09-13","ExpenseItem":"watch","ExpenseCost":"500","NoteDate":"2021-09-13 20:22:13"},
+{"ID":"39","UserId":"15","ExpenseDate":"2021-09-12","ExpenseItem":"shirt","ExpenseCost":"800","NoteDate":"2021-09-13 20:22:30"}
+]
+}
+,{"type":"table","name":"tbluser","database":"detsdb","data":
+[
+{"id":"1","FullName":"Rajeshwari","Email":"raj@gmail.com","MobileNumber":"5655555655","Password":"202cb962ac59075b964b07152d234b70","RegDate":"2019-05-15 14:22:27"},
+{"id":"3","FullName":"Khusbu","Email":"khusi@gmail.com","MobileNumber":"5645798897","Password":"202cb962ac59075b964b07152d234b70","RegDate":"2019-05-15 14:22:27"},
+{"id":"4","FullName":"Shantanu Bhardwaj","Email":"shan@gmail.com","MobileNumber":"7895641236","Password":"202cb962ac59075b964b07152d234b70","RegDate":"2019-05-17 10:43:23"},
+{"id":"8","FullName":"Test","Email":"test@gmail.com","MobileNumber":"5656556565","Password":"202cb962ac59075b964b07152d234b70","RegDate":"2019-05-17 11:04:16"},
+{"id":"9","FullName":"Anuj kumar","Email":"phpgurukulofficial@gmail.com","MobileNumber":"1234567890","Password":"f925916e2754e5e03f75dd58a5733251","RegDate":"2019-05-18 11:01:47"},
+{"id":"10","FullName":"Test User demo","Email":"testuser@gmail.com","MobileNumber":"987654321","Password":"827ccb0eea8a706c4c34a16891f84e7b","RegDate":"2019-05-18 11:04:53"},
+{"id":"11","FullName":"nishang raiyani","Email":"abc@gmail.com","MobileNumber":"1234567890","Password":"81dc9bdb52d04dc20036dbd8313ed055","RegDate":"2021-09-01 18:07:20"},
+{"id":"12","FullName":"jaydeep","Email":"abc1@gmail.com","MobileNumber":"1234565890","Password":"827ccb0eea8a706c4c34a16891f84e7b","RegDate":"2021-09-01 18:16:43"},
+{"id":"13","FullName":"nishang raiyani","Email":"testuser1@gmail.com","MobileNumber":"9016019466","Password":"f925916e2754e5e03f75dd58a5733251","RegDate":"2021-09-09 22:23:47"},
+{"id":"14","FullName":"jaydeep","Email":"jaydeep@gmail.com","MobileNumber":"9016019466","Password":"827ccb0eea8a706c4c34a16891f84e7b","RegDate":"2021-09-13 08:57:20"},
+{"id":"15","FullName":"nishang raiyani","Email":"ni0306shang@gmail.com","MobileNumber":"1234567890","Password":"e10adc3949ba59abbe56e057f20f883e","RegDate":"2021-09-13 19:56:49"}
+]
+}
+]
